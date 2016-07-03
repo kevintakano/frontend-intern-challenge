@@ -6,7 +6,7 @@ function compareHits(x,y)
 $( document ).ready(function() {
     console.log( "ready!" );
 
-     // document.getElementById("past-your-link-text").value = "Cole o seu link aqui";
+   
     /*Pega json através do projeto do git-hub*/
     $.getJSON("https://raw.githubusercontent.com/chaordic/frontend-intern-challenge/master/Assets/urls.json", function(result){
         
@@ -27,9 +27,8 @@ $( document ).ready(function() {
     .error(function() { alert("Error in getting json file!\n"); });
 
  
-    $("#past-your-link-button").click(function()
+    $("#past-your-link-button").click(function()  /*Botão 'encurtar' e 'copiar'*/
     {   
-        console.log( $("#text-inside-button").text());
 
         if($("#past-your-link-button").text() == "ENCURTAR")
         {
