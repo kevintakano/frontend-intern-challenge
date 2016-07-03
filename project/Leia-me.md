@@ -13,6 +13,7 @@
 	- A animação do texto foi feita através da mudança de opacidade.
 - O projeto contém funcionalidade de cópia do link encurtado para transferência. (clipboard copy)
 - Todo o css contém posicionamento e tamanhos relativos.
+- Funciona melhor nos navegadores atuais.
 
 ### Divisão do HTML
 
