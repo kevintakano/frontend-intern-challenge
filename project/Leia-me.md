@@ -4,7 +4,7 @@
 
 ### Sobre o projeto:
 
-- Foi utilizado **JQuery** para realizar operações com JSON e interações com a tela.
+- Foi utilizado JQuery para realizar operações com JSON e interações com a tela.
 - O JQuery utilizado no projeto está no [link](https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js).
 - Há dois estilos .css, um para mobile (mobile.css) e um para desktops (basic-screen.css).
 - Não se utilizou nenhum pré-processador e nenhum framework de automatização.
@@ -28,7 +28,7 @@
 					... Subtítulo
 					... Formulário
 							... Divisão de entrada e botão de reset 
-								... campod e texto
+								... campo de entrada 
 								... botão de reset
 								... botão de encurtar / copiar
 			... Contéudo 'TOP 5'
