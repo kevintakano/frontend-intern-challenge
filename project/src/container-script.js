@@ -40,7 +40,7 @@ $( document ).ready(function() {
                 alert("Cole algum link antes para encurtar! :)");
             } else 
             {
-                /*Fade out */
+                /*Fade out, mudança de opacidade */
                 $("#past-your-link-text").animate({opacity: 0}, 400);
                 $("#text-inside-button").animate({opacity: 0}, 400);
                 $(".clear").animate({opacity: 0}, 400);
